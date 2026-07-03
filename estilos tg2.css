@@ -1,0 +1,129 @@
+
+/* =========================
+   CUERPO DEL DOCUMENTO
+   ========================= */
+body {
+    margin: 60px 100px;  /* márgenes generales */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    color: #1C1C1C;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: #ffffff;
+}
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+   ========================= */
+.main-container {
+  max-width: 95% !important;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 30px 45px;
+    border-radius: 14px;
+
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   TÍTULO PRINCIPAL
+   ========================= */
+.title {
+    background-color: #1F3A5F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 35px 30px;
+  margin-bottom: 28px;
+  border-radius: 14px;
+    margin: 0;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.author, .date {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* =========================
+   SANGRÍA ACADÉMICA (APA)
+   ========================= */
+p {
+    text-indent: 1.25cm;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* =========================
+   TÍTULOS
+   ========================= */
+h1, h2, h3, h4 {
+    color: #1F3A5F;
+    border-bottom: 2px solid #B0B0B0;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    text-indent: 0;
+}
+
+/* =========================
+   LISTAS
+   ========================= */
+li {
+    text-indent: 0;
+}
+
+/* =========================
+   TABLAS
+   ========================= */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12pt;
+}
+
+th {
+    background-color: #EAECEE;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+}
+
+/* =========================
+   BLOQUES DE CÓDIGO
+   ========================= */
+pre {
+    font-size: 12pt;
+    background-color: #f7f7f7;
+    border-left: 4px solid #1F3A5F;
+    padding: 10px;
+}
+
+/* =========================
+   CITAS
+   ========================= */
+blockquote {
+    border-left: 4px solid #B0B0B0;
+    padding-left: 12px;
+    background-color: #f9f9f9;
+}
+
+/* =========================
+   RESPONSIVE (opcional)
+   ========================= */
+@media (max-width: 768px) {
+    body {
+        margin: 15px;
+    }
+
+    .main-container {
+        padding: 15px;
+    }
+}
